@@ -12,11 +12,12 @@ To keep light mode as default:
 - Open any pdf (should open in dark mode by default)
 - Right click the extension icon -> 'this can read and change data' -> select 'when you click the extension'
 - Accept tab reload prompt 
+
 \
 To extend color inversion to a website of your choice:
 - add URL wildcard in manifest.json ('matches' field in 'content_scripts')
 
 \
-Note: Before adding URLs, consider previewing the color inversion accuracy:
+**NOTE**: Before adding URLs, consider previewing the color inversion accuracy:
 - (on your URL) Open chrome console (right click -> inspect)
 - Enter script from dark-mode-pdf.js in console
