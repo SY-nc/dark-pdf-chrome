@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Dark Mode PDF",
+  "version": "1.0",
+  "description": "Dark Mode PDF - Chrome Extension",
+  "content_scripts": [
+    {
+      "matches": ["file:///*"],
+      "js": ["dark-mode-pdf.js"]
+    }
+  ]
+}
